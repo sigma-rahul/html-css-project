@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainbox {
+    background-image: url(iphone12.jpg);
+    background-size: cover;
+    height: 110vh;
+}
+
+.menu {
+    position: absolute;
+    top: 18px;
+    left: 100px;
+    bottom: 580px;
+    height: 50px;
+
+}
+.container{
+    background-color: grey;
+    height: 9vh;
+}
+
+.menu a{
+    padding: 50px;
+    text-decoration: none;
+    color: white;   
+    height: 0px;
+}
+
+ .icon i{
+    position: relative;
+    left: 30px;
+    top: 11px;
+    font-size: 30px;
+    color: rgb(241, 224, 224);
+    
+}
+.icon i:hover{
+    color: white;
+}
+
+.search{
+    position: absolute;
+    left: 82%;
+    bottom: 533px;
+}
+
+.search i{
+    padding: 50px;
+    color: white;
+}
+
+.heading {
+    position: absolute;
+    left: 39%;
+    top: 14%;
+}
+
+.heading h1{
+    font-size: 55px;
+    font-weight:bolder;
+    position: relative;
+    right: 68px;
+}
+
+.heading h2{
+    position: relative;
+    right: 145px;
+    top: 5px;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.heading p{
+    position: relative;
+    top: 10px;
+    right: 30px;
+    opacity: 0.5;
+}
+
+.heading a{
+    position: relative;
+    top: 12px;
+    left: 25px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.heading span{
+    position: relative;
+    left: 18px;
+}
+.heading h1, h2, p{
+    color: white;
+}
+
+.heading span:hover{
+    text-decoration: underline;
+}
+
